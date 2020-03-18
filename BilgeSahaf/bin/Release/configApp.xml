@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SUBELER>
+  <SUBE>
+  	<SUBE_ID>1</SUBE_ID>
+    <SUBE_ADI>BİLGE SAHAF FATSA</SUBE_ADI>
+    <SERVER_IP>31.210.100.217\MSSQLSERVER2014</SERVER_IP>
+    <DB_NAME>bilgesahaf</DB_NAME>
+    <USER_ID>bilgesahaf</USER_ID>
+    <USER_PWD>Kelw92_6*PWD*</USER_PWD>
+  </SUBE>
+  <SUBE>
+  	<SUBE_ID>2</SUBE_ID>
+    <SUBE_ADI>BİLGE SAHAF ORDU</SUBE_ADI>
+    <SERVER_IP>31.210.100.217\MSSQLSERVER2014</SERVER_IP>
+    <DB_NAME>bilgesahafordu</DB_NAME>
+    <USER_ID>bilgesahaf</USER_ID>
+    <USER_PWD>Kelw92_6*PWD*</USER_PWD>
+  </SUBE>
+</SUBELER>

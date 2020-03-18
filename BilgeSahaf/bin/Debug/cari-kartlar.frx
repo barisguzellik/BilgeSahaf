@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="07/10/2017 14:52:34" ReportInfo.Modified="07/10/2017 15:08:59" ReportInfo.CreatorVersion="2017.3.12.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqM3/HbiZANEYP3Y6oNtE7mrUmT0ytl94C6DYS4DXvgc8JqhVjVQGe7Sc2pOMNI3eDPTbPPeA1+EB9JQKVvjcl/ND6uF6VtY24nVQT5H14Jr9HlfUFtwpIW0njg3LUblWOtONlwwt92/p9EIF1MSyeTOSgrbFLmrtIUrUwVoOBdjrKNPrbcqgr9a8J//6wwOAk">
+      <TableDataSource Name="ALINAN_SIPARIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="ALINAN_SIPARIS_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="SIPARIS_ID" DataType="System.Int32"/>
+        <Column Name="STOK_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+        <Column Name="DURUM" DataType="System.String"/>
+        <Column Name="BEKLEME_NEDENI" DataType="System.String"/>
+        <Column Name="TEDARIKCI" DataType="System.String"/>
+        <Column Name="TEDARIK_SURESI" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="ALINAN_SIPARISLER_V2" DataType="System.Int32" Enabled="true" TableName="ALINAN_SIPARISLER_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="CARI" DataType="System.String"/>
+        <Column Name="TOPLAM_TUTAR" DataType="System.Decimal"/>
+        <Column Name="TOPLAM_ADET" DataType="System.Int32"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="AD" DataType="System.String"/>
+        <Column Name="TELEFON" DataType="System.String"/>
+        <Column Name="EK_ACIKLAMA" DataType="System.String"/>
+        <Column Name="DURUM" DataType="System.String"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="ALIS_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="ALIS_FATURA_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="ALIS_FATURA_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+        <Column Name="BIRIM_FIYAT" DataType="System.Decimal"/>
+        <Column Name="KDV_ORANI" DataType="System.Int32"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_ORAN" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="ALIS_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="ALIS_FATURALARI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="CARI_UNVANI" DataType="System.String"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="KDV_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="GENEL_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="ALIS_IADE_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="ALIS_IADE_FATURA_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="ALIS_FATURA_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+        <Column Name="BIRIM_FIYAT" DataType="System.Decimal"/>
+        <Column Name="KDV_ORANI" DataType="System.Int32"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_ORAN" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="ALIS_IADE_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="ALIS_IADE_FATURALARI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="CARI_UNVANI" DataType="System.String"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="KDV_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="GENEL_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="BANKA_CIKISLAR_V2" DataType="System.Int32" Enabled="true" TableName="BANKA_CIKISLAR_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="BANKA" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="BANKA_GIRISLER_V2" DataType="System.Int32" Enabled="true" TableName="BANKA_GIRISLER_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="BANKA" DataType="System.Int32"/>
+        <Column Name="FATURA_ID" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="BANKALAR_V2" DataType="System.Int32" Enabled="true" TableName="BANKALAR_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="BANKA_ADI" DataType="System.String"/>
+        <Column Name="SUBESI" DataType="System.String"/>
+        <Column Name="ACILIS_TARIHI" DataType="System.DateTime"/>
+        <Column Name="HESAP_NUMARASI" DataType="System.String"/>
+        <Column Name="IBAN_NUMARASI" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="CARI_KARTLAR_V2" DataType="System.Int32" Enabled="true" TableName="CARI_KARTLAR_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="CARI_KODU" DataType="System.String"/>
+        <Column Name="UNVANI" DataType="System.String"/>
+        <Column Name="CARI_TURU" DataType="System.String"/>
+        <Column Name="ADRES" DataType="System.String"/>
+        <Column Name="IL" DataType="System.String"/>
+        <Column Name="ILCE" DataType="System.String"/>
+        <Column Name="TELEFON" DataType="System.String"/>
+        <Column Name="CEP_TELEFON" DataType="System.String"/>
+        <Column Name="YETKILI_KISI" DataType="System.String"/>
+        <Column Name="VERGI_DAIRESI" DataType="System.String"/>
+        <Column Name="VERGI_NUMARASI" DataType="System.String"/>
+        <Column Name="GRUP_KODU" DataType="System.String"/>
+        <Column Name="OZEL_KODLAR_1" DataType="System.String"/>
+        <Column Name="OZEL_KODLAR_2" DataType="System.String"/>
+        <Column Name="OZEL_KODLAR_3" DataType="System.String"/>
+        <Column Name="OZEL_KODLAR_4" DataType="System.String"/>
+        <Column Name="OZEL_KODLAR_5" DataType="System.String"/>
+        <Column Name="FATURA_ADRESI" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="CEK_CIKIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="CEK_CIKIS_BORDROSU_DETAYLAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="CEK_CIKIS_ID" DataType="System.Int32"/>
+        <Column Name="CINSI" DataType="System.String"/>
+        <Column Name="REFERANS" DataType="System.String"/>
+        <Column Name="VADE" DataType="System.String"/>
+        <Column Name="MEBLAG" DataType="System.Decimal"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="CEK_CIKIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="CEK_CIKIS_BORDROSU_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="EVRAK_NUMARASI" DataType="System.String"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="BELGE_TARIHI" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ARA_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="MASRAF" DataType="System.Decimal"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="CEK_GIRIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="CEK_GIRIS_BORDROSU_DETAYLAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="CEK_GIRIS_ID" DataType="System.Int32"/>
+        <Column Name="CINSI" DataType="System.String"/>
+        <Column Name="REFERANS" DataType="System.String"/>
+        <Column Name="VADE" DataType="System.String"/>
+        <Column Name="MEBLAG" DataType="System.Decimal"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="CEK_GIRIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="CEK_GIRIS_BORDROSU_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="EVRAK_NUMARASI" DataType="System.String"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="BELGE_TARIHI" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ARA_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="MASRAF" DataType="System.Decimal"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="DEPO_KARTLARI_V2" DataType="System.Int32" Enabled="true" TableName="DEPO_KARTLARI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="DEPO_ADI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="GELIRLER_V2" DataType="System.Int32" Enabled="true" TableName="GELIRLER_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="KASA" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="GIDERLER_V2" DataType="System.Int32" Enabled="true" TableName="GIDERLER_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="KASA" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="KASALAR_V2" DataType="System.Int32" Enabled="true" TableName="KASALAR_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="KASA_ADI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="ACILIS_TARIHI" DataType="System.DateTime"/>
+      </TableDataSource>
+      <TableDataSource Name="KULLANICILAR" DataType="System.Int32" Enabled="true" TableName="KULLANICILAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="AD" DataType="System.String"/>
+        <Column Name="SOYAD" DataType="System.String"/>
+        <Column Name="EPOSTA_ADRESI" DataType="System.String"/>
+        <Column Name="AKTIF" DataType="System.Int32"/>
+        <Column Name="PAROLA" DataType="System.String"/>
+        <Column Name="IZINLER" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="ODEMELER_V2" DataType="System.Int32" Enabled="true" TableName="ODEMELER_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="KASA" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="SATIS_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="SATIS_FATURA_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="SATIS_FATURA_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+        <Column Name="BIRIM_FIYAT" DataType="System.Decimal"/>
+        <Column Name="KDV_ORANI" DataType="System.Int32"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_ORAN" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="SATIS_FATURALARI" DataType="System.Int32" Enabled="true" TableName="SATIS_FATURALARI">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="KATEGORI" DataType="System.String"/>
+        <Column Name="MUSTERI" DataType="System.Int32"/>
+        <Column Name="DUZENLENME_TARIHI" DataType="System.DateTime"/>
+        <Column Name="VADE_TARIHI" DataType="System.DateTime"/>
+        <Column Name="FATURA_SERI_NO" DataType="System.String"/>
+        <Column Name="FATURA_SIRA_NO" DataType="System.String"/>
+        <Column Name="DOVIZ_KURU" DataType="System.String"/>
+        <Column Name="ARA_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="KDV_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="GENEL_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="AKTIF" DataType="System.Int32"/>
+        <Column Name="BRUT_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_TURU" DataType="System.String"/>
+        <Column Name="ISKONTO_TUTARI" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="SATIS_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="SATIS_FATURALARI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="CARI_UNVANI" DataType="System.String"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="KDV_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="GENEL_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="FATURA_NUMARASI" DataType="System.String"/>
+        <Column Name="SATIS_ELEMANI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="SATIS_IADE_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="SATIS_IADE_FATURA_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="SATIS_FATURA_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+        <Column Name="BIRIM_FIYAT" DataType="System.Decimal"/>
+        <Column Name="KDV_ORANI" DataType="System.Int32"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_ORAN" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="SATIS_IADE_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="SATIS_IADE_FATURALARI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="CARI_UNVANI" DataType="System.String"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+        <Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="KDV_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="GENEL_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="FATURA_NUMARASI" DataType="System.String"/>
+        <Column Name="SATIS_ELEMANI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="SENET_CIKIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="SENET_CIKIS_BORDROSU_DETAYLAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="SENET_CIKIS_ID" DataType="System.Int32"/>
+        <Column Name="CINSI" DataType="System.String"/>
+        <Column Name="REFERANS" DataType="System.String"/>
+        <Column Name="VADE" DataType="System.String"/>
+        <Column Name="MEBLAG" DataType="System.Decimal"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="SENET_CIKIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="SENET_CIKIS_BORDROSU_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="EVRAK_NUMARASI" DataType="System.String"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="BELGE_TARIHI" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ARA_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="MASRAF" DataType="System.Decimal"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="SENET_GIRIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="SENET_GIRIS_BORDROSU_DETAYLAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="SENET_GIRIS_ID" DataType="System.Int32"/>
+        <Column Name="CINSI" DataType="System.String"/>
+        <Column Name="REFERANS" DataType="System.String"/>
+        <Column Name="VADE" DataType="System.String"/>
+        <Column Name="MEBLAG" DataType="System.Decimal"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="SENET_GIRIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="SENET_GIRIS_BORDROSU_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="EVRAK_NUMARASI" DataType="System.String"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="BELGE_TARIHI" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ARA_TOPLAM" DataType="System.Decimal"/>
+        <Column Name="MASRAF" DataType="System.Decimal"/>
+        <Column Name="TOPLAM" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_BARKODLARI" DataType="System.Int32" Enabled="true" TableName="STOK_BARKODLARI">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="STOK_ID" DataType="System.Int32"/>
+        <Column Name="BARKOD" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_CIKIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="STOK_CIKIS_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="STOK_CIKIS_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_CIKISLARI_V2" DataType="System.Int32" Enabled="true" TableName="STOK_CIKISLARI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="CARI_UNVANI" DataType="System.String"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_GIRIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="STOK_GIRIS_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="STOK_GIRIS_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_GIRISLERI_V2" DataType="System.Int32" Enabled="true" TableName="STOK_GIRISLERI_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="CARI_UNVANI" DataType="System.String"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_KARTI_V2" DataType="System.Int32" Enabled="true" TableName="STOK_KARTI_V2">
+        <Column Name="STOK_KODU" DataType="System.String"/>
+        <Column Name="STOK_ADI" DataType="System.String"/>
+        <Column Name="YAZAR" DataType="System.String"/>
+        <Column Name="YAYINEVI" DataType="System.String"/>
+        <Column Name="GRUBU" DataType="System.String"/>
+        <Column Name="OZEL_KOD_1" DataType="System.String"/>
+        <Column Name="OZEL_KOD_2" DataType="System.String"/>
+        <Column Name="OZEL_KOD_3" DataType="System.String"/>
+        <Column Name="OZEL_KOD_4" DataType="System.String"/>
+        <Column Name="OZEL_KOD_5" DataType="System.String"/>
+        <Column Name="RESIM" DataType="System.String"/>
+        <Column Name="BIRIM" DataType="System.String"/>
+        <Column Name="BARKOD_1" DataType="System.String"/>
+        <Column Name="BARKOD_2" DataType="System.String"/>
+        <Column Name="BARKOD_3" DataType="System.String"/>
+        <Column Name="FIYAT_1" DataType="System.Decimal"/>
+        <Column Name="FIYAT_2" DataType="System.Decimal"/>
+        <Column Name="FIYAT_3" DataType="System.Decimal"/>
+        <Column Name="FIYAT_4" DataType="System.Decimal"/>
+        <Column Name="FIYAT_5" DataType="System.Decimal"/>
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="MINIMUM_STOK" DataType="System.Int32"/>
+        <Column Name="MAKSIMUM_STOK" DataType="System.Int32"/>
+        <Column Name="DOVIZ" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_SAYIM_URUNLER" DataType="System.Int32" Enabled="true" TableName="STOK_SAYIM_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="FIS_ID" DataType="System.Int32"/>
+        <Column Name="URUN_ID" DataType="System.Int32"/>
+        <Column Name="SAYILAN" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="STOK_SAYIM_V2" DataType="System.Int32" Enabled="true" TableName="STOK_SAYIM_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="BELGE_NUMARASI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="DEPO" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="TAHSILATLAR_V2" DataType="System.Int32" Enabled="true" TableName="TAHSILATLAR_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="KASA" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="VERILEN_SIPARIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="VERILEN_SIPARIS_URUNLER">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="SIPARIS_ID" DataType="System.Int32"/>
+        <Column Name="STOK_ID" DataType="System.Int32"/>
+        <Column Name="MIKTAR" DataType="System.Int32"/>
+        <Column Name="DURUM" DataType="System.String"/>
+        <Column Name="BEKLEME_NEDENI" DataType="System.String"/>
+        <Column Name="TEDARIKCI" DataType="System.String"/>
+        <Column Name="TEDARIK_SURESI" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="VERILEN_SIPARISLER_V2" DataType="System.Int32" Enabled="true" TableName="VERILEN_SIPARISLER_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="CARI" DataType="System.String"/>
+        <Column Name="TOPLAM_TUTAR" DataType="System.Decimal"/>
+        <Column Name="TOPLAM_ADET" DataType="System.Int32"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="AD" DataType="System.String"/>
+        <Column Name="TELEFON" DataType="System.String"/>
+        <Column Name="EK_ACIKLAMA" DataType="System.String"/>
+        <Column Name="DURUM" DataType="System.String"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="YAYINEVI_ISKONTO" DataType="System.Int32" Enabled="true" TableName="YAYINEVI_ISKONTO">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="YAYINEVI" DataType="System.String"/>
+        <Column Name="ISKONTO_ORANI" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="GONDERILEN_HAVALE_V2" DataType="System.Int32" Enabled="true" TableName="GONDERILEN_HAVALE_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="BANKA" DataType="System.Int32"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="GELEN_HAVALE_V2" DataType="System.Int32" Enabled="true" TableName="GELEN_HAVALE_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="BANKA" DataType="System.Int32"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="POS_TAHSIL_V2" DataType="System.Int32" Enabled="true" TableName="POS_TAHSIL_V2">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="TARIH" DataType="System.DateTime"/>
+        <Column Name="EKLENME_TARIHI" DataType="System.String"/>
+        <Column Name="ACIKLAMA" DataType="System.String"/>
+        <Column Name="TUTAR" DataType="System.Decimal"/>
+        <Column Name="BANKA" DataType="System.Int32"/>
+        <Column Name="CARI" DataType="System.Int32"/>
+      </TableDataSource>
+      <TableDataSource Name="VIEW_BANKALAR" DataType="System.Int32" Enabled="true" TableName="VIEW_BANKALAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="AÇILIŞ_TARİHİ" DataType="System.DateTime"/>
+        <Column Name="BANKA_ADI" DataType="System.String"/>
+        <Column Name="ŞUBE" DataType="System.String"/>
+        <Column Name="GİRİŞLER" DataType="System.Decimal"/>
+        <Column Name="ÇIKIŞLAR" DataType="System.Decimal"/>
+        <Column Name="BAKİYE" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="VIEW_KASALAR" DataType="System.Int32" Enabled="true" TableName="VIEW_KASALAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="AÇILIŞ_TARİHİ" DataType="System.DateTime"/>
+        <Column Name="KASA_ADI" DataType="System.String"/>
+        <Column Name="GİRİŞLER" DataType="System.Decimal"/>
+        <Column Name="ÇIKIŞLAR" DataType="System.Decimal"/>
+        <Column Name="BAKİYE" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="VIEW_CARI_KARTLAR" DataType="System.Int32" Enabled="true" TableName="VIEW_CARI_KARTLAR">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="HESAP_KODU" DataType="System.String"/>
+        <Column Name="HESAP_ADI" DataType="System.String"/>
+        <Column Name="HESAP_TÜRÜ" DataType="System.String"/>
+        <Column Name="CARİ_ALACAĞI" DataType="System.Decimal"/>
+        <Column Name="CARİ_BORCU" DataType="System.Decimal"/>
+        <Column Name="CARİ_BAKİYESİ" DataType="System.Decimal"/>
+      </TableDataSource>
+      <TableDataSource Name="VIEW_STOK_KARTLARI" DataType="System.Int32" Enabled="true" TableName="VIEW_STOK_KARTLARI">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="STOK_KODU" DataType="System.String"/>
+        <Column Name="BARKOD" DataType="System.String"/>
+        <Column Name="STOK_ADI" DataType="System.String"/>
+        <Column Name="YAZAR" DataType="System.String"/>
+        <Column Name="YAYINEVİ" DataType="System.String"/>
+        <Column Name="GRUBU" DataType="System.String"/>
+        <Column Name="BİRİMİ" DataType="System.String"/>
+        <Column Name="FİYATI" DataType="System.Decimal"/>
+        <Column Name="GİREN" DataType="System.Int32"/>
+        <Column Name="ÇIKAN" DataType="System.Int32"/>
+        <Column Name="KALAN" DataType="System.Int32"/>
+        <Column Name="SON_ALIŞ" DataType="System.Decimal"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8"/>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="94.5"/>
+    <DataBand Name="Data1" Top="140.3" Width="718.2" Height="179.55" DataSource="CARI_KARTLAR_V2">
+      <TextObject Name="Text1" Left="28.35" Top="9.45" Width="141.75" Height="18.9" Text="[CARI_KARTLAR_V2.CARI_KODU]"/>
+      <TextObject Name="Text3" Left="170.1" Top="9.45" Width="132.3" Height="18.9" Text="[CARI_KARTLAR_V2.UNVANI]"/>
+      <TextObject Name="Text2" Left="28.35" Top="37.8" Width="94.5" Height="47.25" Text="[CARI_KARTLAR_V2.YETKILI_KISI]"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="323.85" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

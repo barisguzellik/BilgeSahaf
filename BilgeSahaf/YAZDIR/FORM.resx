@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="report1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="report1.ReportResourceString" xml:space="preserve">
+    <value>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Report ScriptLanguage="CSharp" ReportInfo.Created="07/10/2017 14:52:34" ReportInfo.Modified="07/10/2017 15:10:34" ReportInfo.CreatorVersion="2017.3.12.0"&gt;
+  &lt;Dictionary&gt;
+    &lt;MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqM3/HbiZANEYP3Y6oNtE7mrUmT0ytl94C6DYS4DXvgc8JqhVjVQGe7Sc2pOMNI3eDPTbPPeA1+EB9JQKVvjcl/ND6uF6VtY24nVQT5H14Jr9HlfUFtwpIW0njg3LUblWOtONlwwt92/p9EIF1MSyeTOSgrbFLmrtIUrUwVoOBdjrZIANF9MgbLSs6YxPc5MUT"&gt;
+      &lt;TableDataSource Name="ALINAN_SIPARIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="ALINAN_SIPARIS_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SIPARIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="STOK_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+        &lt;Column Name="DURUM" DataType="System.String"/&gt;
+        &lt;Column Name="BEKLEME_NEDENI" DataType="System.String"/&gt;
+        &lt;Column Name="TEDARIKCI" DataType="System.String"/&gt;
+        &lt;Column Name="TEDARIK_SURESI" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="ALINAN_SIPARISLER_V2" DataType="System.Int32" Enabled="true" TableName="ALINAN_SIPARISLER_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="CARI" DataType="System.String"/&gt;
+        &lt;Column Name="TOPLAM_TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="TOPLAM_ADET" DataType="System.Int32"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="AD" DataType="System.String"/&gt;
+        &lt;Column Name="TELEFON" DataType="System.String"/&gt;
+        &lt;Column Name="EK_ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="DURUM" DataType="System.String"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="ALIS_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="ALIS_FATURA_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="ALIS_FATURA_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+        &lt;Column Name="BIRIM_FIYAT" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_ORANI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_ORAN" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="ALIS_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="ALIS_FATURALARI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="GENEL_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="ALIS_IADE_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="ALIS_IADE_FATURA_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="ALIS_FATURA_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+        &lt;Column Name="BIRIM_FIYAT" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_ORANI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_ORAN" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="ALIS_IADE_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="ALIS_IADE_FATURALARI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="GENEL_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="BANKA_CIKISLAR_V2" DataType="System.Int32" Enabled="true" TableName="BANKA_CIKISLAR_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BANKA" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="BANKA_GIRISLER_V2" DataType="System.Int32" Enabled="true" TableName="BANKA_GIRISLER_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BANKA" DataType="System.Int32"/&gt;
+        &lt;Column Name="FATURA_ID" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="BANKALAR_V2" DataType="System.Int32" Enabled="true" TableName="BANKALAR_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="BANKA_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="SUBESI" DataType="System.String"/&gt;
+        &lt;Column Name="ACILIS_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="HESAP_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="IBAN_NUMARASI" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="CARI_KARTLAR_V2" DataType="System.Int32" Enabled="true" TableName="CARI_KARTLAR_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_KODU" DataType="System.String"/&gt;
+        &lt;Column Name="UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI_TURU" DataType="System.String"/&gt;
+        &lt;Column Name="ADRES" DataType="System.String"/&gt;
+        &lt;Column Name="IL" DataType="System.String"/&gt;
+        &lt;Column Name="ILCE" DataType="System.String"/&gt;
+        &lt;Column Name="TELEFON" DataType="System.String"/&gt;
+        &lt;Column Name="CEP_TELEFON" DataType="System.String"/&gt;
+        &lt;Column Name="YETKILI_KISI" DataType="System.String"/&gt;
+        &lt;Column Name="VERGI_DAIRESI" DataType="System.String"/&gt;
+        &lt;Column Name="VERGI_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="GRUP_KODU" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KODLAR_1" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KODLAR_2" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KODLAR_3" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KODLAR_4" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KODLAR_5" DataType="System.String"/&gt;
+        &lt;Column Name="FATURA_ADRESI" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="CEK_CIKIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="CEK_CIKIS_BORDROSU_DETAYLAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CEK_CIKIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CINSI" DataType="System.String"/&gt;
+        &lt;Column Name="REFERANS" DataType="System.String"/&gt;
+        &lt;Column Name="VADE" DataType="System.String"/&gt;
+        &lt;Column Name="MEBLAG" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="CEK_CIKIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="CEK_CIKIS_BORDROSU_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="EVRAK_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="BELGE_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ARA_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="MASRAF" DataType="System.Decimal"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="CEK_GIRIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="CEK_GIRIS_BORDROSU_DETAYLAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CEK_GIRIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CINSI" DataType="System.String"/&gt;
+        &lt;Column Name="REFERANS" DataType="System.String"/&gt;
+        &lt;Column Name="VADE" DataType="System.String"/&gt;
+        &lt;Column Name="MEBLAG" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="CEK_GIRIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="CEK_GIRIS_BORDROSU_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="EVRAK_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="BELGE_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ARA_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="MASRAF" DataType="System.Decimal"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="DEPO_KARTLARI_V2" DataType="System.Int32" Enabled="true" TableName="DEPO_KARTLARI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="DEPO_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="GELIRLER_V2" DataType="System.Int32" Enabled="true" TableName="GELIRLER_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KASA" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="GIDERLER_V2" DataType="System.Int32" Enabled="true" TableName="GIDERLER_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KASA" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="KASALAR_V2" DataType="System.Int32" Enabled="true" TableName="KASALAR_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="KASA_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="ACILIS_TARIHI" DataType="System.DateTime"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="KULLANICILAR" DataType="System.Int32" Enabled="true" TableName="KULLANICILAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="AD" DataType="System.String"/&gt;
+        &lt;Column Name="SOYAD" DataType="System.String"/&gt;
+        &lt;Column Name="EPOSTA_ADRESI" DataType="System.String"/&gt;
+        &lt;Column Name="AKTIF" DataType="System.Int32"/&gt;
+        &lt;Column Name="PAROLA" DataType="System.String"/&gt;
+        &lt;Column Name="IZINLER" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="ODEMELER_V2" DataType="System.Int32" Enabled="true" TableName="ODEMELER_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="KASA" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SATIS_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="SATIS_FATURA_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SATIS_FATURA_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+        &lt;Column Name="BIRIM_FIYAT" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_ORANI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_ORAN" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SATIS_FATURALARI" DataType="System.Int32" Enabled="true" TableName="SATIS_FATURALARI"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="KATEGORI" DataType="System.String"/&gt;
+        &lt;Column Name="MUSTERI" DataType="System.Int32"/&gt;
+        &lt;Column Name="DUZENLENME_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="VADE_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="FATURA_SERI_NO" DataType="System.String"/&gt;
+        &lt;Column Name="FATURA_SIRA_NO" DataType="System.String"/&gt;
+        &lt;Column Name="DOVIZ_KURU" DataType="System.String"/&gt;
+        &lt;Column Name="ARA_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="GENEL_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="AKTIF" DataType="System.Int32"/&gt;
+        &lt;Column Name="BRUT_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_TURU" DataType="System.String"/&gt;
+        &lt;Column Name="ISKONTO_TUTARI" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SATIS_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="SATIS_FATURALARI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="GENEL_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="FATURA_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="SATIS_ELEMANI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SATIS_IADE_FATURA_URUNLER" DataType="System.Int32" Enabled="true" TableName="SATIS_IADE_FATURA_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SATIS_FATURA_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+        &lt;Column Name="BIRIM_FIYAT" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_ORANI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_ORAN" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SATIS_IADE_FATURALARI_V2" DataType="System.Int32" Enabled="true" TableName="SATIS_IADE_FATURALARI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ISKONTO_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="KDV_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="GENEL_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="FATURA_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="SATIS_ELEMANI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SENET_CIKIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="SENET_CIKIS_BORDROSU_DETAYLAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SENET_CIKIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CINSI" DataType="System.String"/&gt;
+        &lt;Column Name="REFERANS" DataType="System.String"/&gt;
+        &lt;Column Name="VADE" DataType="System.String"/&gt;
+        &lt;Column Name="MEBLAG" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SENET_CIKIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="SENET_CIKIS_BORDROSU_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="EVRAK_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="BELGE_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ARA_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="MASRAF" DataType="System.Decimal"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SENET_GIRIS_BORDROSU_DETAYLAR" DataType="System.Int32" Enabled="true" TableName="SENET_GIRIS_BORDROSU_DETAYLAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SENET_GIRIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="CINSI" DataType="System.String"/&gt;
+        &lt;Column Name="REFERANS" DataType="System.String"/&gt;
+        &lt;Column Name="VADE" DataType="System.String"/&gt;
+        &lt;Column Name="MEBLAG" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="SENET_GIRIS_BORDROSU_V2" DataType="System.Int32" Enabled="true" TableName="SENET_GIRIS_BORDROSU_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="EVRAK_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="BELGE_TARIHI" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ARA_TOPLAM" DataType="System.Decimal"/&gt;
+        &lt;Column Name="MASRAF" DataType="System.Decimal"/&gt;
+        &lt;Column Name="TOPLAM" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_BARKODLARI" DataType="System.Int32" Enabled="true" TableName="STOK_BARKODLARI"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="STOK_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="BARKOD" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_CIKIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="STOK_CIKIS_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="STOK_CIKIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_CIKISLARI_V2" DataType="System.Int32" Enabled="true" TableName="STOK_CIKISLARI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_GIRIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="STOK_GIRIS_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="STOK_GIRIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_GIRISLERI_V2" DataType="System.Int32" Enabled="true" TableName="STOK_GIRISLERI_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI_UNVANI" DataType="System.String"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_KARTI_V2" DataType="System.Int32" Enabled="true" TableName="STOK_KARTI_V2"&gt;
+        &lt;Column Name="STOK_KODU" DataType="System.String"/&gt;
+        &lt;Column Name="STOK_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="YAZAR" DataType="System.String"/&gt;
+        &lt;Column Name="YAYINEVI" DataType="System.String"/&gt;
+        &lt;Column Name="GRUBU" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KOD_1" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KOD_2" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KOD_3" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KOD_4" DataType="System.String"/&gt;
+        &lt;Column Name="OZEL_KOD_5" DataType="System.String"/&gt;
+        &lt;Column Name="RESIM" DataType="System.String"/&gt;
+        &lt;Column Name="BIRIM" DataType="System.String"/&gt;
+        &lt;Column Name="BARKOD_1" DataType="System.String"/&gt;
+        &lt;Column Name="BARKOD_2" DataType="System.String"/&gt;
+        &lt;Column Name="BARKOD_3" DataType="System.String"/&gt;
+        &lt;Column Name="FIYAT_1" DataType="System.Decimal"/&gt;
+        &lt;Column Name="FIYAT_2" DataType="System.Decimal"/&gt;
+        &lt;Column Name="FIYAT_3" DataType="System.Decimal"/&gt;
+        &lt;Column Name="FIYAT_4" DataType="System.Decimal"/&gt;
+        &lt;Column Name="FIYAT_5" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MINIMUM_STOK" DataType="System.Int32"/&gt;
+        &lt;Column Name="MAKSIMUM_STOK" DataType="System.Int32"/&gt;
+        &lt;Column Name="DOVIZ" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_SAYIM_URUNLER" DataType="System.Int32" Enabled="true" TableName="STOK_SAYIM_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="FIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="URUN_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SAYILAN" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="STOK_SAYIM_V2" DataType="System.Int32" Enabled="true" TableName="STOK_SAYIM_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="BELGE_NUMARASI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="DEPO" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="TAHSILATLAR_V2" DataType="System.Int32" Enabled="true" TableName="TAHSILATLAR_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="KASA" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="VERILEN_SIPARIS_URUNLER" DataType="System.Int32" Enabled="true" TableName="VERILEN_SIPARIS_URUNLER"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="SIPARIS_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="STOK_ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="MIKTAR" DataType="System.Int32"/&gt;
+        &lt;Column Name="DURUM" DataType="System.String"/&gt;
+        &lt;Column Name="BEKLEME_NEDENI" DataType="System.String"/&gt;
+        &lt;Column Name="TEDARIKCI" DataType="System.String"/&gt;
+        &lt;Column Name="TEDARIK_SURESI" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="VERILEN_SIPARISLER_V2" DataType="System.Int32" Enabled="true" TableName="VERILEN_SIPARISLER_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="CARI" DataType="System.String"/&gt;
+        &lt;Column Name="TOPLAM_TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="TOPLAM_ADET" DataType="System.Int32"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="AD" DataType="System.String"/&gt;
+        &lt;Column Name="TELEFON" DataType="System.String"/&gt;
+        &lt;Column Name="EK_ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="DURUM" DataType="System.String"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="YAYINEVI_ISKONTO" DataType="System.Int32" Enabled="true" TableName="YAYINEVI_ISKONTO"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="YAYINEVI" DataType="System.String"/&gt;
+        &lt;Column Name="ISKONTO_ORANI" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="GONDERILEN_HAVALE_V2" DataType="System.Int32" Enabled="true" TableName="GONDERILEN_HAVALE_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BANKA" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="GELEN_HAVALE_V2" DataType="System.Int32" Enabled="true" TableName="GELEN_HAVALE_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BANKA" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="POS_TAHSIL_V2" DataType="System.Int32" Enabled="true" TableName="POS_TAHSIL_V2"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="TARIH" DataType="System.DateTime"/&gt;
+        &lt;Column Name="EKLENME_TARIHI" DataType="System.String"/&gt;
+        &lt;Column Name="ACIKLAMA" DataType="System.String"/&gt;
+        &lt;Column Name="TUTAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BANKA" DataType="System.Int32"/&gt;
+        &lt;Column Name="CARI" DataType="System.Int32"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="VIEW_BANKALAR" DataType="System.Int32" Enabled="true" TableName="VIEW_BANKALAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="AÇILIŞ_TARİHİ" DataType="System.DateTime"/&gt;
+        &lt;Column Name="BANKA_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="ŞUBE" DataType="System.String"/&gt;
+        &lt;Column Name="GİRİŞLER" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ÇIKIŞLAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BAKİYE" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="VIEW_KASALAR" DataType="System.Int32" Enabled="true" TableName="VIEW_KASALAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="AÇILIŞ_TARİHİ" DataType="System.DateTime"/&gt;
+        &lt;Column Name="KASA_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="GİRİŞLER" DataType="System.Decimal"/&gt;
+        &lt;Column Name="ÇIKIŞLAR" DataType="System.Decimal"/&gt;
+        &lt;Column Name="BAKİYE" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="VIEW_CARI_KARTLAR" DataType="System.Int32" Enabled="true" TableName="VIEW_CARI_KARTLAR"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="HESAP_KODU" DataType="System.String"/&gt;
+        &lt;Column Name="HESAP_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="HESAP_TÜRÜ" DataType="System.String"/&gt;
+        &lt;Column Name="CARİ_ALACAĞI" DataType="System.Decimal"/&gt;
+        &lt;Column Name="CARİ_BORCU" DataType="System.Decimal"/&gt;
+        &lt;Column Name="CARİ_BAKİYESİ" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+      &lt;TableDataSource Name="VIEW_STOK_KARTLARI" DataType="System.Int32" Enabled="true" TableName="VIEW_STOK_KARTLARI"&gt;
+        &lt;Column Name="ID" DataType="System.Int32"/&gt;
+        &lt;Column Name="STOK_KODU" DataType="System.String"/&gt;
+        &lt;Column Name="BARKOD" DataType="System.String"/&gt;
+        &lt;Column Name="STOK_ADI" DataType="System.String"/&gt;
+        &lt;Column Name="YAZAR" DataType="System.String"/&gt;
+        &lt;Column Name="YAYINEVİ" DataType="System.String"/&gt;
+        &lt;Column Name="GRUBU" DataType="System.String"/&gt;
+        &lt;Column Name="BİRİMİ" DataType="System.String"/&gt;
+        &lt;Column Name="FİYATI" DataType="System.Decimal"/&gt;
+        &lt;Column Name="GİREN" DataType="System.Int32"/&gt;
+        &lt;Column Name="ÇIKAN" DataType="System.Int32"/&gt;
+        &lt;Column Name="KALAN" DataType="System.Int32"/&gt;
+        &lt;Column Name="SON_ALIŞ" DataType="System.Decimal"/&gt;
+      &lt;/TableDataSource&gt;
+    &lt;/MsSqlDataConnection&gt;
+  &lt;/Dictionary&gt;
+  &lt;ReportPage Name="Page1"&gt;
+    &lt;ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8"/&gt;
+    &lt;PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="94.5"/&gt;
+    &lt;DataBand Name="Data1" Top="140.3" Width="718.2" Height="179.55" DataSource="CARI_KARTLAR_V2"&gt;
+      &lt;TextObject Name="Text1" Left="28.35" Top="9.45" Width="141.75" Height="18.9" Text="[CARI_KARTLAR_V2.CARI_KODU]"/&gt;
+      &lt;TextObject Name="Text3" Left="170.1" Top="9.45" Width="132.3" Height="18.9" Text="[CARI_KARTLAR_V2.UNVANI]"/&gt;
+      &lt;TextObject Name="Text2" Left="28.35" Top="37.8" Width="94.5" Height="47.25" Text="[CARI_KARTLAR_V2.YETKILI_KISI]"/&gt;
+    &lt;/DataBand&gt;
+    &lt;PageFooterBand Name="PageFooter1" Top="323.85" Width="718.2" Height="18.9"/&gt;
+  &lt;/ReportPage&gt;
+&lt;/Report&gt;
+</value>
+  </data>
+</root>
